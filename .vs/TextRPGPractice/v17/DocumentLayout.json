@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\KSSStudy\\TextRPGPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72C2C787-F9DB-43AE-9B31-46DE2E54F8C8}|ConstAndStatic\\ConstAndStatic.vcxproj|C:\\KSSStudy\\TextRPGPractice\\ConstAndStatic\\ConstAndStatic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72C2C787-F9DB-43AE-9B31-46DE2E54F8C8}|ConstAndStatic\\ConstAndStatic.vcxproj|solutionrelative:ConstAndStatic\\ConstAndStatic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C2C787-F9DB-43AE-9B31-46DE2E54F8C8}|ConstAndStatic\\ConstAndStatic.vcxproj|C:\\KSSStudy\\TextRPGPractice\\ConstAndStatic\\ConstAndStatic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72C2C787-F9DB-43AE-9B31-46DE2E54F8C8}|ConstAndStatic\\ConstAndStatic.vcxproj|solutionrelative:ConstAndStatic\\ConstAndStatic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972DC5CC-F59A-49AB-988D-6F771082EDFA}|SmartPointer\\SmartPointer.vcxproj|C:\\KSSStudy\\TextRPGPractice\\SmartPointer\\SmartPointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{972DC5CC-F59A-49AB-988D-6F771082EDFA}|SmartPointer\\SmartPointer.vcxproj|solutionrelative:SmartPointer\\SmartPointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C2C787-F9DB-43AE-9B31-46DE2E54F8C8}|ConstAndStatic\\ConstAndStatic.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.43.34808\\INCLUDE\\MEMORY||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2336C772-2E7C-4B9A-B854-662D45B160EA}|InterFace\\InterFace.vcxproj|C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFace.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2336C772-2E7C-4B9A-B854-662D45B160EA}|InterFace\\InterFace.vcxproj|solutionrelative:InterFace\\InterFace.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|C:\\KSSStudy\\TextRPGPractice\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|C:\\KSSStudy\\TextRPGPractice\\Battler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|solutionrelative:Battler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|C:\\KSSStudy\\TextRPGPractice\\Hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|solutionrelative:Hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|C:\\KSSStudy\\TextRPGPractice\\Battler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|solutionrelative:Battler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|C:\\KSSStudy\\TextRPGPractice\\Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|solutionrelative:Hero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|C:\\KSSStudy\\TextRPGPractice\\TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|solutionrelative:TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2336C772-2E7C-4B9A-B854-662D45B160EA}|InterFace\\InterFace.vcxproj|C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFacePractice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2336C772-2E7C-4B9A-B854-662D45B160EA}|InterFace\\InterFace.vcxproj|solutionrelative:InterFace\\InterFacePractice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2336C772-2E7C-4B9A-B854-662D45B160EA}|InterFace\\InterFace.vcxproj|C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFacePractice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2336C772-2E7C-4B9A-B854-662D45B160EA}|InterFace\\InterFace.vcxproj|solutionrelative:InterFace\\InterFacePractice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|C:\\KSSStudy\\TextRPGPractice\\TextRPGPractice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|solutionrelative:TextRPGPractice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|C:\\KSSStudy\\TextRPGPractice\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7321B7BE-4F94-49E2-A192-A2949824407F}|TextRPGPractice.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "memory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\memory",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\memory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\memory",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\memory",
+              "ViewState": "AgIAAPsNAAAAAAAAAAAswAkOAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-01T12:51:42.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmartPointer.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\SmartPointer\\SmartPointer.cpp",
+              "RelativeDocumentMoniker": "SmartPointer\\SmartPointer.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\SmartPointer\\SmartPointer.cpp",
+              "RelativeToolTip": "SmartPointer\\SmartPointer.cpp",
+              "ViewState": "AgIAAH4AAAAAAAAAAADwv3QAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-01T12:43:13.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConstAndStatic.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\ConstAndStatic\\ConstAndStatic.cpp",
+              "RelativeDocumentMoniker": "ConstAndStatic\\ConstAndStatic.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\ConstAndStatic\\ConstAndStatic.cpp",
+              "RelativeToolTip": "ConstAndStatic\\ConstAndStatic.cpp",
+              "ViewState": "AgIAAEkBAAAAAAAAAAAowFABAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T12:04:52.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConstAndStatic.h",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\ConstAndStatic\\ConstAndStatic.h",
+              "RelativeDocumentMoniker": "ConstAndStatic\\ConstAndStatic.h",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\ConstAndStatic\\ConstAndStatic.h",
+              "RelativeToolTip": "ConstAndStatic\\ConstAndStatic.h",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAowH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-01T11:45:39.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TextRPG.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\TextRPG.cpp",
+              "RelativeDocumentMoniker": "TextRPG.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\TextRPG.cpp",
+              "RelativeToolTip": "TextRPG.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwv2sAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T12:46:54.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hero.h",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\Hero.h",
+              "RelativeDocumentMoniker": "Hero.h",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\Hero.h",
+              "RelativeToolTip": "Hero.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-29T12:43:39.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Hero.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\Hero.cpp",
+              "RelativeDocumentMoniker": "Hero.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\Hero.cpp",
+              "RelativeToolTip": "Hero.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T12:42:50.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Battler.h",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\Battler.h",
+              "RelativeDocumentMoniker": "Battler.h",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\Battler.h",
+              "RelativeToolTip": "Battler.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-29T12:30:25.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Battler.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\Battler.cpp",
+              "RelativeDocumentMoniker": "Battler.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\Battler.cpp",
+              "RelativeToolTip": "Battler.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T12:37:40.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TextRPGPractice.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\TextRPGPractice.cpp",
+              "RelativeDocumentMoniker": "TextRPGPractice.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\TextRPGPractice.cpp",
+              "RelativeToolTip": "TextRPGPractice.cpp",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswB8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T12:29:02.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InterFacePractice.h",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFacePractice.h",
+              "RelativeDocumentMoniker": "InterFace\\InterFacePractice.h",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFacePractice.h",
+              "RelativeToolTip": "InterFace\\InterFacePractice.h",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-29T11:16:02.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InterFacePractice.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFacePractice.cpp",
+              "RelativeDocumentMoniker": "InterFace\\InterFacePractice.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFacePractice.cpp",
+              "RelativeToolTip": "InterFace\\InterFacePractice.cpp",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswIsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T11:27:45.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InterFace.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFace.cpp",
+              "RelativeDocumentMoniker": "InterFace\\InterFace.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\InterFace\\InterFace.cpp",
+              "RelativeToolTip": "InterFace\\InterFace.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowIkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-28T12:17:55.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\Enemy.h",
+              "RelativeDocumentMoniker": "Enemy.h",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\Enemy.h",
+              "RelativeToolTip": "Enemy.h",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-21T12:40:15.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\KSSStudy\\TextRPGPractice\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Enemy.cpp",
+              "ToolTip": "C:\\KSSStudy\\TextRPGPractice\\Enemy.cpp",
+              "RelativeToolTip": "Enemy.cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwB4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-22T11:16:14.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
