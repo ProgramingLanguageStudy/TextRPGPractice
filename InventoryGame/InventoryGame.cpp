@@ -113,7 +113,7 @@ void Inventory::PrintInventory()
 
 void Inventory::UseItem(int index)
 {
-    if (index < 0 || index > inventory_count_) {
+    if (index < 0 || index >= inventory_count_) {
         cout << "잘못된 인덱스입니다." << endl;
         return;
     }
