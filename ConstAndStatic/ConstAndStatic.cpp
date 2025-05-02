@@ -204,7 +204,7 @@ void StaticStudy()
 void StaticPractice1()
 {
     Monster mon1("슬라임", 50);
-    Monster mon2("고블린", 1000);
+    Monster mon2("고블린", 100);
     Monster mon3("오크", 100);
 
     cout << "생성된 몬스터 수: " << Monster::GetTotalCount() << endl;
@@ -219,27 +219,6 @@ void StaticPractice1()
         }
     }
 }
-
-void StaticPractice2()
-{
-    unique_ptr<ISkillUser> warrior = make_unique<Warrior>("김전사", 100);
-    unique_ptr<ISkillUser> mage = make_unique<Mage>("박법사", 200);
-
-    warrior->UseSkill();
-    mage->UseSkill();
-
-    cout << "생성된 영웅 수: " << SkillHero::GetTotalCount() << endl;
-}
-
-int main()
-{
-    //ConstStudy();
-    //StaticStudy();
-    StaticPractice1();
-    StaticPractice2();
-}
-
-
 
 Monster::Monster(string name, int max_hp) : id_(counter_)
 {
@@ -292,7 +271,7 @@ bool Monster::isNormal()
     }
 }
 
-int SkillHero::counter_ = 0;
+int SkillHero::hero_counter_ = 0;
 
 SkillHero::SkillHero(string name, int max_mp)
 {
@@ -300,7 +279,7 @@ SkillHero::SkillHero(string name, int max_mp)
     max_mp_ = max_mp;
     current_mp_ = max_mp_;
 
-    counter_++;
+    hero_counter_++;
 }
 
 SkillHero::~SkillHero()
@@ -308,20 +287,16 @@ SkillHero::~SkillHero()
 
 }
 
-void SkillHero::PrintInfo()
+void SkillHero::PrintInfo() const
 {
     cout << "===== [" << name_ << "정보] =====" << endl;
     cout << "마나: " << current_mp_ << " / " << max_mp_ << endl;
     cout << "========================" << endl;
 }
 
-Warrior::Warrior(string name, int max_mp)
+Warrior::Warrior(string name, int max_mp) : SkillHero(name, max_mp)
 {
-    name_ = name;
-    max_mp_ = max_mp;
-    current_mp_ = max_mp_;
-
-    counter_++;
+    
 }
 
 Warrior::~Warrior()
@@ -331,19 +306,18 @@ Warrior::~Warrior()
 
 void Warrior::UseSkill()
 {
-    cout << "전사가 스킬1을(를) 사용하였다!" << endl;
+    cout << name_ << "가 스킬1을(를) 사용하였다!" << endl;
     cout << "소모한 마나: " << kWarriorSkill1 << endl;
     
     current_mp_ -= kWarriorSkill1;
+
+    cout << "남은 마나: " << current_mp_ << endl;
 }
 
-Mage::Mage(string name, int max_mp)
+const int Mage::kMageSkill1 = 30;
+Mage::Mage(string name, int max_mp) : SkillHero(name, max_mp)
 {
-    name_ = name;
-    max_mp_ = max_mp;
-    current_mp_ = max_mp_;
-
-    counter_++;
+    
 }
 
 Mage::~Mage()
@@ -353,9 +327,34 @@ Mage::~Mage()
 
 void Mage::UseSkill()
 {
-    cout << "마법사가 스킬1을(를) 사용하였다!" << endl;
+    cout << name_ << "가 스킬1을(를) 사용하였다!" << endl;
     cout << "소모한 마나: " << kMageSkill1 << endl;
 
     current_mp_ -= kMageSkill1;
+
+    cout << "남은 마나: " << current_mp_ << endl;
 }
 
+const int Warrior::kWarriorSkill1 = 20;
+
+void StaticPractice2()
+{
+    unique_ptr<ISkillUser> warrior = make_unique<Warrior>("김전사", 100);
+    unique_ptr<ISkillUser> mage = make_unique<Mage>("박법사", 200);
+
+    warrior->PrintInfo();
+    mage->PrintInfo();
+
+    warrior->UseSkill();
+    mage->UseSkill();
+
+    cout << "생성된 영웅 수: " << SkillHero::GetTotalCount() << endl;
+}
+
+int main()
+{
+    //ConstStudy();
+    //StaticStudy();
+    StaticPractice1();
+    StaticPractice2();
+}

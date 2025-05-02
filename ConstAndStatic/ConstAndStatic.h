@@ -95,6 +95,7 @@ class ISkillUser
 public:
 	virtual void UseSkill() = 0;
 	virtual ~ISkillUser() = default;
+	virtual void PrintInfo() const = 0;
 };
 
 class SkillHero : public ISkillUser
@@ -103,15 +104,15 @@ public:
 	SkillHero(string name, int max_mp);
 	virtual ~SkillHero();
 
-	void PrintInfo();
+	void PrintInfo() const override;
 
 	static int GetTotalCount()
 	{
-		return counter_;
+		return hero_counter_;
 	}
 
 protected:
-	static int counter_;
+	static int hero_counter_;
 
 	string name_;
 	int max_mp_;
@@ -127,7 +128,7 @@ public:
 
 private:
 	static const int kWarriorSkill1;
-	int mp_use_;
+	
 };
 
 class Mage : public SkillHero
