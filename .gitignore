@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio 설정 폴더 무시
+.vs/
