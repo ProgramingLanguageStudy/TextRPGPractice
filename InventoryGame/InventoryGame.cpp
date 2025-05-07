@@ -22,12 +22,12 @@ Item::~Item()
 
 void Item::PrintInfo() const
 {
-    cout << "===== 아이템 정보 =====" << endl;
-    cout << "아이템 ID: " << id_ << endl;
+    //cout << "===== 아이템 정보 =====" << endl;
+    //cout << "아이템 ID: " << id_ << endl;
     cout << "아이템 이름: " << name_ << endl;
     cout << "아이템 정보: " << script_ << endl;
-    cout << "아이템 가격: " << price_ << endl;
-    cout << "===== 아이템 정보 =====" << endl << endl;
+    cout << "아이템 가격: " << price_ << endl << endl;
+    //cout << "===== 아이템 정보 =====" << endl << endl;
 }
 
 int Item::GetPrice() const
@@ -61,7 +61,8 @@ Potion::~Potion()
 }
 void Potion::Use()
 {
-    cout << "HP를 회복합니다!" << endl;
+    cout << name_ << "을(를) 사용했습니다!" << endl << endl;
+    cout << script_ << endl;
 }
 
 Equipment::Equipment(string name, string script, int price) : Item(name, script, price)
@@ -74,7 +75,7 @@ Equipment::~Equipment()
 }
 void Equipment::Use()
 {
-    cout << name_ << " 장비를 착용했습니다!" << endl;
+    cout << name_ << "을(를) 착용했습니다!" << endl << endl;
 }
 
 Inventory::Inventory()
@@ -89,16 +90,15 @@ Inventory::~Inventory()
 
 bool Inventory::AddItem(Item* item)
 {
-    
     if (inventory_count_ >= kMaxSize) {
-        cout << "인벤토리가 가득 찼습니다. 먼저 정리해주세요." << endl;
+        cout << "인벤토리가 가득 찼습니다. 먼저 정리해주세요." << endl << endl;
         return false;
     }
 
     items[inventory_count_++] = item;
-    return true; 
-    cout << "인벤토리에 " << item->GetName() << "가 추가되었습니다." << endl;
-    cout << "현재 인벤토리 칸: " << inventory_count_ << "/" << kMaxSize << endl;
+    /*cout << "인벤토리에 " << item->GetName() << "(이)가 추가되었습니다." << endl;
+    cout << "현재 인벤토리 칸: " << inventory_count_ << "/" << kMaxSize << endl;*/
+    return true;
 }
 
 void Inventory::PrintInventory()
@@ -108,7 +108,7 @@ void Inventory::PrintInventory()
     {
         items[i]->PrintInfo();
     }
-    cout << "현재 보관중인 아이템 수: " << inventory_count_ << "/" << kMaxSize << endl;
+    cout << "현재 보관중인 아이템 수: " << inventory_count_ << "/" << kMaxSize << endl << endl;
 }
 
 void Inventory::UseItem(int index)
@@ -121,7 +121,7 @@ void Inventory::UseItem(int index)
     items[index]->Use();
 
     // 사용한 아이템을 제거하고 뒤의 아이템을 앞으로 당기기
-    for (int i = index; i < inventory_count_ - 1; ++i) {
+    for (int i = index; i < inventory_count_; ++i) {
         items[i] = items[i + 1];
     }
     items[inventory_count_ - 1] = nullptr;
@@ -146,7 +146,7 @@ void Player::BuyItem(Item& item)
     
     if (gold_ < itemPrice)
     {
-        cout << "골드가" << (itemPrice - gold_) << "원 부족합니다" << endl;
+        cout << "골드가 " << (itemPrice - gold_) << "원 부족하여 " << itemName << "을(를) 구입할 수 없습니다." << endl <<endl;
         return;
     }
 
@@ -159,21 +159,22 @@ void Player::BuyItem(Item& item)
     gold_ -= itemPrice;
 
     cout << itemName << "을(를) 구입하셨습니다." << endl;
-    cout << "남은 골드: " << gold_ << endl;
+    cout << "남은 골드: " << gold_ << endl << endl;
 }
 
 void Player::PrintStatus()
 {
     cout << "===== 플레이어 정보 =====" << endl;
     cout << "이름: " << name_ << endl;
-    cout << "보유중인 골드: " << gold_ << endl;
-    cout << "인벤토리 상태: " << endl;
+    cout << "보유중인 골드: " << gold_ << endl << endl;
     inventory.PrintInventory();
+    
 }
 
 void Player::UseItem(int index)
 {
     inventory.UseItem(index);
+    inventory.PrintInventory();
 }
 
 void InventoryGame()
@@ -198,6 +199,8 @@ void InventoryGame()
 
     player.BuyItem(equipment1);
     player.BuyItem(equipment2);
+
+    player.PrintStatus();
 
     player.UseItem(1);
     player.UseItem(2);
