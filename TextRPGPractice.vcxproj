@@ -141,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="OOP.txt" />
+    <Text Include="Overview.txt" />
     <Text Include="SOLIDPrinciple.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
